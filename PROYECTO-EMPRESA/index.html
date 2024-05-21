@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stysheet" href="estilos/estilos.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   <style>
+        .num{
+            margin: 20px 50px;
+        }
+        #navbar{
+            margin: 20px 15px;
+        }
+        #pil1{
+            width:120%;
+           height: 100%;
+
+        }
+        #letra{
+            color:rgb(182, 121, 8);
+            text-align: center;
+            margin:10px 0;
+           
+        }
+        #letras{
+            font-family:Arial, Helvetica, sans-serif;
+        }
+       .jugo{
+            float:left;
+            height: 100%;
+            width:95%;
+       }
+       .imagen{
+           border-radius: 100%;
+           border: 10px solid rgb(223, 223, 223);
+       }
+      #p{
+          margin-right:50px;
+          width:100%;
+      }
+      .num2{
+          margin: 20px ;
+          margin-left:190px;
+          height:50%;
+      }
+   </style>
+</head>
+  
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                 <div class="row">
+                     <div id="pil" style="background-color: rgb(255, 255, 255); height:200px ;"class="col-3">
+                         <p style="background-color:white;"></p><img src="pil.webp" alt=""/>
+                     </div>
+                     <div style="background-color:white; height:200px ;" class="col-6">
+                          <div class="row">
+                              <div id="p" style="background-color:white; height:100px;" class="col-12">
+                                <br/>
+                                <nav class="navbar bg-body-tertiary">
+                                    <div class="container-fluid">
+                                      <form class="d-flex" role="search">
+                                        <input class="form-control me-2" type="search" placeholder="Search producto" aria-label="Search">
+                                        <button class="btn btn-outline-success" type="submit">Search </button>
+                                      </form>
+                                    </div>
+                                  </nav>
+
+                              </div>
+                            
+                              <div id="navbar" style="background-color: rgb(255, 255, 255); height:100px;" class="col-12">
+                                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                                    <div class="container-fluid">
+                                        <button type="button" class="btn btn-warning"> <a class="navbar-brand" href="#">INICIO</a></button>
+                                     
+                                       
+                                      </button>
+                                      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                        <ul class="navbar-nav">
+                                          <li class="nav-item">
+                                           <button type="button" class="btn btn-warning"> <a class="nav-link active" aria-current="page" href="#">CONOCENOS</a> </button>
+                                          </li>
+                                          <li class="nav-item dropdown">
+                                            <button type="button" class="btn btn-warning"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                             PRODUCTOS
+                                            </a></button>
+                                            <ul class="dropdown-menu">
+                                              <li><a class="dropdown-item" href="#">Lacteos</a></li>
+                                              <li><a class="dropdown-item" href="#">derivados lacteos</a></li>
+                                              <li><a class="dropdown-item" href="#">bebidas</a></li>
+                                              <li><a class="dropdown-item" href="#">helados</a></li>
+                                              <li><a class="dropdown-item" href="#">otros productos</a></li>
+                                            </ul>
+                                          </li>
+                                          <li class="nav-item">
+                                            <button type="button" class="btn btn-warning"> <a class="nav-link" href="#">SUCURSALES</a> </button>
+                                          </li>
+                                          
+                                        </ul>
+                                      </div>
+                                    </div>
+                                  </nav>
+                              </div>
+                          </div>
+                    </div>
+                     <div style="background-color:white;" class="col-3">
+                        <br/>
+                        <div class="num">
+                        <img src="num.webp" alt=""></div>
+                    </div>
+                 </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div  style="background-color: rgb(99, 169, 187); height:500px ;" class="col-12">
+                <img id="pil1" src="pil1.webp" alt="">
+            </div>
+        </div>
+    </br>
+        <div class="row">
+            <div style="background-color: rgb(255, 255, 255); height:350px;" class="col-12">
+               <h2> <p id="letra">¡Una experiencia diferente y saludable!</p> </h2>
+            </br>
+             <h5><p id="letras">Te damos la bienvenida a Pil Express, un espacio donde tendrás una experiencia directa y única con todos los
+                  productos PIL,</p> <p>con el mejor servicio, un ambiente seguro, además de ofertas, recetas y muchas novedades más</p></h5>
+                </br>
+               <center><button type="button" class="btn btn-light"> Mas informacion </button></center>
+            </div>
+        </div>
+        <div class="row">
+            <div style="background-color: rgb(255, 255, 255);" class="col-12">
+              <div class="row">
+                  <div class="col-4">
+                    <h6>PRECIOS FIJOS</h6>
+                  </div>
+                  <div class="col-4"><h6>CALIDAD GARANTIZADA</h6></div>
+                  <div class="col-4"><h6>NUESTROS PRODUCTOS EN UN SÓLO LUGAR</h6></div>
+              </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div style="background-color: rgb(255, 255, 255); height:650px;" class="col-6">
+                <img class="jugo" src="jugo.webp" alt="">
+            </div>
+            <div style="background-color: rgb(255, 255, 255); height:650px;" class="col-6">
+                <img class="jugo" src="jugo1.webp" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div style="background-color: rgb(255, 255, 255); height:300px;" class="col-12">
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imagen" src="lacteos.webp" alt="">
+                    </div> 
+                    <div class="col-2">
+                        <img class="imagen" src="a.webp" alt="">
+                    </div>
+                    <div class="col-2">
+                        <img class="imagen" src="b.webp" alt="">
+                    </div>
+                    <div class="col-2">
+                        <img class="imagen" src="hela.webp" alt="">
+                    </div>
+                    <div class="col-2">
+                        <img class="imagen" src="otros.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div style="background-color: rgb(206, 171, 136); height:550px;" class="col-12">
+              <img id="p" src="p.webp" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div style="background-color: rgb(255, 255, 255); height:550px;" class="col-12">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-3">
+                               <h1> Síguenos</h1>
+                            </div>
+                            <div class="col-9"><h1><center>Contáctenos</center></h1>
+                                <img class="num2" src="num.webp" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-2">
+                                <h4>INFORMACIÓN</h4></br>
+                                <p>CONÓCENOS</p></br>
+                                <p>CONTACTO</p>
+                            </div>
+                            <div class="col-10">
+                                <h4>PRODUCTOS</h4>
+                                BEBIDAS</br>
+                                BEBIDAS REFRESCANTES</br>
+                                DERIVADOS LÁCTEOS </br>
+                                HELADOS</br>
+                                LECHE FLUIDA </br>
+                                OTROS PRODUCTOS</br>
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link src="script" href="js/script.js">
+</body>
+
+</html>

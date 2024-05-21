@@ -1,0 +1,61 @@
+		"use strict";
+		var greenfarm_brandnumber = 6,
+			greenfarm_brandscrollnumber = 2,
+			greenfarm_brandpause = 3000,
+			greenfarm_brandanimate = 700;
+		var greenfarm_brandscroll = false;
+					var greenfarm_categoriesnumber = 6,
+			greenfarm_categoriesscrollnumber = 2,
+			greenfarm_categoriespause = 3000,
+			greenfarm_categoriesanimate = 700;
+		var greenfarm_categoriesscroll = 'false';
+					var greenfarm_blogpause = 3000,
+			greenfarm_bloganimate = 700;
+		var greenfarm_blogscroll = false;
+					var greenfarm_testipause = 3000,
+			greenfarm_testianimate = 2000;
+		var greenfarm_testiscroll = false;
+							greenfarm_testiscroll = false;
+					var greenfarm_catenumber = 6,
+			greenfarm_catescrollnumber = 2,
+			greenfarm_catepause = 3000,
+			greenfarm_cateanimate = 700;
+		var greenfarm_catescroll = false;
+					var greenfarm_menu_number = 8;
+		var greenfarm_sticky_header = false;
+							greenfarm_sticky_header = true;
+					jQuery(document).ready(function(){
+			jQuery(".ws").on('focus', function(){
+				if(jQuery(this).val()==""){
+					jQuery(this).val("");
+				}
+			});
+			jQuery(".ws").on('focusout', function(){
+				if(jQuery(this).val()==""){
+					jQuery(this).val("");
+				}
+			});
+			jQuery(".wsearchsubmit").on('click', function(){
+				if(jQuery("#ws").val()=="" || jQuery("#ws").val()==""){
+					jQuery("#ws").focus();
+					return false;
+				}
+			});
+			jQuery(".search_input").on('focus', function(){
+				if(jQuery(this).val()==""){
+					jQuery(this).val("");
+				}
+			});
+			jQuery(".search_input").on('focusout', function(){
+				if(jQuery(this).val()==""){
+					jQuery(this).val("");
+				}
+			});
+			jQuery(".blogsearchsubmit").on('click', function(){
+				if(jQuery("#search_input").val()=="" || jQuery("#search_input").val()==""){
+					jQuery("#search_input").focus();
+					return false;
+				}
+			});
+		});
+		
